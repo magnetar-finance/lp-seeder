@@ -107,7 +107,7 @@ async function seedLPPerEntry() {
           to: entry.routerId as `0x${string}`,
           value: ethValue,
           data,
-          gas: entry.defineChainConfig.id === 5124 ? 4000000n : 2000000n,
+          gas: entry.defineChainConfig.id === 5124 ? 6000000n : 2000000n,
         });
 
         console.log(
