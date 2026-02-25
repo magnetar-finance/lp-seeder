@@ -1,0 +1,85 @@
+{
+  "5124": {
+    "routerId": "0x106f65e8ac8Fb84024e583AE1abAf7552E7EE80d",
+    "ethValue": "0.45",
+    "defineChainConfig": {
+      "id": 5124,
+      "name": "Seismic Testnet",
+      "nativeCurrency": { "name": "Seismic", "symbol": "SEI", "decimals": 18 },
+      "rpcUrls": {
+        "default": { "http": ["https://gcp-2.seismictest.net/rpc"] }
+      },
+      "blockExplorers": {
+        "default": {
+          "name": "Socialscan",
+          "url": "https://seismic-testnet.socialscan.io"
+        }
+      },
+      "testnet": true
+    },
+    "tokens": [
+      {
+        "name": "Magnetar Finance USD",
+        "address": "0x2e19f01b81628ccd8cfce9f7d9f2facc77343b7c",
+        "decimals": 18
+      },
+      {
+        "name": "Magnetar Finance USD+",
+        "address": "0xf886abace837e5ec0cf7037b4d2198f7a1bf35b5",
+        "decimals": 18
+      }
+    ]
+  },
+  "745": {
+    "routerId": "0x7961c29F9007ADbE089c1C4163a77e453A960583",
+    "ethValue": "200",
+    "defineChainConfig": {
+      "id": 745,
+      "name": "Dusk Testnet",
+      "nativeCurrency": { "name": "Dusk", "symbol": "DUSK", "decimals": 18 },
+      "rpcUrls": {
+        "default": { "http": ["https://rpc.testnet.evm.dusk.network"] }
+      },
+      "blockExplorers": {
+        "default": {
+          "name": "Blockscout",
+          "url": "https://explorer.testnet.evm.dusk.network"
+        }
+      },
+      "testnet": true
+    },
+    "tokens": [
+      {
+        "name": "Pieswap",
+        "address": "0x6cFabd149eBB0b10f13d89590F72c8503C548E62",
+        "decimals": 18
+      }
+    ]
+  },
+  "688689": {
+    "routerId": "0x023AF3A2F01982A07c80BDe582E48b4B9b491034",
+    "ethValue": "20",
+    "defineChainConfig": {
+      "id": 688689,
+      "name": "Pharos Testnet",
+      "nativeCurrency": { "name": "Pharos", "symbol": "PHRS", "decimals": 18 },
+      "rpcUrls": {
+        "default": { "http": ["https://atlantic.dplabs-internal.com"] }
+      },
+      "blockExplorers": {
+        "default": {
+          "name": "Blockscout",
+          "url": "https://atlantic.pharosscan.xyz"
+        }
+      },
+      "testnet": true
+    },
+    "tokens": [
+      {
+        "name": "Magnetar Finance",
+        "address": "0x2914f5e8A40047C7421aaDad35CDB06870ecA0c5",
+        "decimals": 18
+      }
+    ]
+  }
+}
