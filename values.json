@@ -21,12 +21,12 @@
       {
         "name": "Magnetar Finance USD",
         "address": "0x2e19f01b81628ccd8cfce9f7d9f2facc77343b7c",
-        "decimals": 18
+        "decimals": 6
       },
       {
         "name": "Magnetar Finance USD+",
         "address": "0xf886abace837e5ec0cf7037b4d2198f7a1bf35b5",
-        "decimals": 18
+        "decimals": 6
       }
     ]
   },
